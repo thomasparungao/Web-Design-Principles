@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Blog - Web Design Principles </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #000022;
+        }
+        header {
+            background: #00020;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section, aside {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        header {
+            position: relative;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        section {
+            flex: 2;
+            background: white;
+            border-radius: 5px;
+        }
+        aside {
+            flex: 1;
+            background: white;
+            border-radius: 5px;
+        }
+        article {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a:link {
+            color: white;
+        }
+        nav a:visited {
+            color: #7f7f7f;
+        }
+        nav a:hover {
+            color: #f0a500;
+        }
+        nav a:active {
+            color: #e32d2b;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+		a {
+		color: blue;
+		text-decoration: none;
+		}
+		a:visited {
+		color: purple;
+		text-decoration: underline;
+		}
+		a:hover {
+		color: blue;
+		text-decoration: underline;
+		}
+		
+		
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> Welcome to My Web Design Blog</h1>
+        <p> Sharing knowledge about whatever comes in your mind.</p>
+    </header>
+    
+    <nav>
+        <a href="Home.html">Home</a>
+        <button onclick="window.location.href='About_me.html'">About Me</button>
+        <a href="#">Blog</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Gallery</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Latest Blog Posts</h2>
+            
+            <article>
+                <h3>Understanding HTML5 Semantics</h3>
+                <p>HTML5 introduced new semantic elements that help define the structure of web pages...</p>
+                <a href="#">Read More</a>
+            </article>
+            
+            <article>
+                <h3>CSS Flexbox: A Beginner's Guide</h3>
+                <p>Flexbox is a powerful tool for creating responsive layouts with minimal code...</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

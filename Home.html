@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Blog - Web Design Principles </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #000022;
+        }
+        header {
+            background: #00020;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section, aside {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        header {
+            position: relative;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        section {
+            flex: 2;
+            background: white;
+            border-radius: 5px;
+        }
+        aside {
+            flex: 1;
+            background: white;
+            border-radius: 5px;
+        }
+        article {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a:link {
+            color: white;
+        }
+        nav a:visited {
+            color: #7f7f7f;
+        }
+        nav a:hover {
+            color: #f0a500;
+        }
+        nav a:active {
+            color: #e32d2b;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+		a {
+		color: blue;
+		text-decoration: none;
+		}
+		a:visited {
+		color: purple;
+		text-decoration: underline;
+		}
+		a:hover {
+		color: blue;
+		text-decoration: underline;
+		}
+		
+		
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tom's Game Blog Test Site</h1>
+    </header>
+    
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About_me.html">About Me</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Gallery.html">Gallery</a>
+    </nav>
+
+    <main>
+        <section>
+            <h1>Tom's Currently Testing on Roblox Things..</h1>
+            
+            <article>
+                <h3>Want to Check them out?</h3>
+				
+                <a href="https://www.roblox.com/games/17695943931/SHOWCASE-Your-Golden-Hour">Your Golden Hour</a><br>
+				<a href="https://www.roblox.com/games/17708395925/SHOWCASE-Ikaw-at-Ikaw">Ikaw at Ikaw</a><br>
+				<a href="https://www.roblox.com/games/17719517894/SHOWCASE-The-Room">The Room</a><br>
+				<a href="https://www.roblox.com/games/18531716039/SHOWCASE-Reunion">Reunion</a>
+            </article>
+        </section>
+		
+		<aside>
+			<h1>Currently On Development</h1>
+			<p>Deadrails</p>
+			<p>Fisch!</p>
+			<p>Macro 2.1</p>
+		</aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tom's Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
